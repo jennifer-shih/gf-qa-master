@@ -1,0 +1,92 @@
+INTERGRATION:
+  - features/04_OceanImport/0401_CreateOIMBLShipment.feature
+  - features/04_OceanImport/0402_AddOIHBLToShipment.feature
+  - features/04_OceanImport/0403_AddOIContainer.feature
+  - features/04_OceanImport/0414_OIMBLLinkedFields.feature
+  - features/04_OceanImport/0415_OIMBLAndHBLLinkedFields.feature
+  - features/04_OceanImport/0417_OIHBLToolCopyTo.feature
+  - features/04_OceanImport/0418_OIDirectMaster.feature
+  - features/05_OceanExport/0501_CreateOEMBLShipment.feature
+  - features/05_OceanExport/0502_AddOEHBLToShipment.feature
+  - features/05_OceanExport/0517_OEHBLToolCopyTo.feature
+  - features/05_OceanExport/0518_OEDirectMaster.feature
+  - features/06_AirImport/0601_CreateAIMAWBShipment.feature
+  - features/06_AirImport/0602_AddAIHAWBToShipment.feature
+  - features/06_AirImport/0611_AIMAWBFunction.feature
+  - features/06_AirImport/0612_AIMAWBAndHAWBFunction.feature
+  - features/06_AirImport/0617_AIHAWBToolCopyTo.feature
+  - features/06_AirImport/0618_AIDirectMaster.feature
+  - features/07_AirExport/0701_CreateAEMAWBShipment.feature
+  - features/07_AirExport/0702_AddAEHAWBToShipment.feature
+  - features/07_AirExport/0710_AEMAWBFunction.feature
+  - features/07_AirExport/0711_AEMAWBAndHAWBFunction.feature
+  - features/07_AirExport/0717_AEHAWBToolCopyTo.feature
+  - features/07_AirExport/0718_AEDirectMaster.feature
+  - features/08_Truck/0801_CreateTKShipment.feature
+  - features/08_Truck/0802_AddTKContainer.feature
+  - features/08_Truck/0803_TKAccounting.feature
+  - features/08_Truck/0804_TKDocCenterAndWorkOrder.feature
+  - features/08_Truck/0805_TKStatus.feature
+  - features/09_Warehouse/0901_CreateWHReceipt.feature
+  - features/09_Warehouse/0902_CreateWHReceipAMBasic.feature
+  - features/09_Warehouse/0906_CreateWHReceipOTBasic.feature
+  - features/09_Warehouse/0909_CreateWHReceiving.feature
+  - features/09_Warehouse/0915_CreateWHShipping.feature
+  - features/09_Warehouse/0920_CopyWHReceipt.feature
+  - features/09_Warehouse/0921_CreateWHReceiptAdvanced.feature
+  - features/10_Misc/1001_CreateMiscShipment.feature
+  - features/20_AccountingWizard/2001_OIAcceptanceTest.feature
+  - features/20_AccountingWizard/2002_OEAcceptanceTest.feature
+  - features/20_AccountingWizard/2003_AIAcceptanceTest.feature
+  - features/20_AccountingWizard/2004_AEAcceptanceTest.feature
+  - features/20_AccountingWizard/2005_TKAcceptanceTest.feature
+  - features/20_AccountingWizard/2006_WHReceivingAcceptanceTest.feature
+  - features/20_AccountingWizard/2007_WHShippingAcceptanceTest.feature
+  - features/20_AccountingWizard/2008_MSAcceptanceTest.feature
+  - features/20_AccountingWizard/2009_OEBKAcceptanceTest.feature
+  - features/20_AccountingWizard/2010_OEVSAndBKAcceptanceTest.feature
+  - features/20_AccountingWizard/2011_OEVSAndHBLAcceptanceTest.feature
+  - features/21_FrontDesk/2101_AcceptanceTest.feature
+  - features/22_AWBNoManagement/2201_AcceptanceTest.feature
+  - features/22_AWBNoManagement/2202_PermissionTest.feature
+  - features/22_AWBNoManagement/2203_AdvancedTest.feature
+  - features/23_CostShare/2301_CostShare.feature
+  - features/24_LoadAndLink/2401_LoadAndLink.feature
+  - features/24_LoadAndLink/2402_LoadAndLinkMatch.feature
+  - features/25_PaymentPlan/2501_PaymentPlanList.feature
+  - features/26_Tracking/2601_EnableGFTracking.feature
+
+BUG_REGRESSION:
+  - features/19_BugRegression/1901_GQT_255.feature
+  - features/19_BugRegression/1902_GQT_256.feature
+  - features/19_BugRegression/1903_GQT_258.feature
+  - features/19_BugRegression/1904_GFACCT_1290.feature
+  - features/19_BugRegression/1905_GQT_333.feature
+  - features/19_BugRegression/1906_GQT_301.feature
+  - features/19_BugRegression/1907_GFG_8412.feature
+  - features/19_BugRegression/1908_GFG_8542.feature
+  - features/19_BugRegression/1909_GFG_9043.feature
+
+ACCT_REPORT:
+  - features/14_Accounting/1403_AccountingReportBalanceSheet.feature
+  - features/14_Accounting/1404_AccountingReportTrialBalance.feature
+  - features/14_Accounting/1405_AccountingReportGLReport.feature
+  - features/14_Accounting/1406_AccountingReportWithLargePeriod.feature
+  - features/14_Accounting/1419_AccountingReportBSMonthly.feature
+  - features/14_Accounting/1420_AccountingReportTBMonthly.feature
+  - features/14_Accounting/1421_AccountingReportISMonthly.feature
+
+RESET_DB:
+  - features/00_InitialSetup/0001_InitialSetup.feature
+  - features/01_Role/0101_CreateRoles.feature
+  - features/02_TradePartner/0201_CreateTradePartners.feature
+  - features/02_TradePartner/0202_CreateQuotation.feature
+
+WH_COMBO:
+  - features/09_Warehouse/0901_CreateWHReceipt.feature
+  - features/09_Warehouse/0902_CreateWHReceipAMBasic.feature
+  - features/09_Warehouse/0906_CreateWHReceipOTBasic.feature
+  - features/09_Warehouse/0909_CreateWHReceiving.feature
+  - features/09_Warehouse/0915_CreateWHShipping.feature
+  - features/09_Warehouse/0920_CopyWHReceipt.feature
+  - features/09_Warehouse/0921_CreateWHReceiptAdvanced.feature

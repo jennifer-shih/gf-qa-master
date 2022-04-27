@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "aaron-bond.better-comments",
+        "alexkrechik.cucumberautocomplete",
+        "manamimebom.cucumber-support",
+        "eamodio.gitlens",
+        "ms-python.vscode-pylance",
+        "njqdev.vscode-python-typehint",
+        "vscode-icons-team.vscode-icons",
+        "github.vscode-pull-request-github",
+        "ms-toolsai.jupyter",
+        "bungcip.better-toml",
+        "yzhang.markdown-all-in-one",
+        "ms-azuretools.vscode-docker"
+    ]
+}

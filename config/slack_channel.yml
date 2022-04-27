@@ -1,0 +1,5 @@
+performance-test:
+    name: feed-qa-performance-test
+
+full-option-test:
+    name: feed-qa-full-option-test

@@ -1,0 +1,172 @@
+{
+	// Place your gf-qa workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	// Log
+	"Write warning to log": {
+			"scope": "python",
+			"prefix": "Log Warning",
+			"body": [
+				"Logger.get_logger().warning('$1')"
+			],
+			"description": "Write warning message to log"
+		},
+	"Write infomation to log": {
+			"scope": "python",
+			"prefix": "Log Info",
+			"body": [
+				"Logger.get_logger().info('$1')"
+			],
+			"description": "Write information to log"
+		},
+	"Write debug message to log": {
+			"scope": "python",
+			"prefix": "Log Debug",
+			"body": [
+				"Logger.get_logger().debug('$1')"
+			],
+			"description": "Write debug message to log"
+		},
+
+	// Cucumber step implementation
+	"Given step implementation of cucumber": {
+			"scope": "python",
+			"prefix": "@Given",
+			"body": [
+				"@Given(\"${1:the user has a banana}\")",
+				"def step_impl(context$2):",
+				"    $0"
+			],
+			"description": "Given step implementation of cucumber"
+		},
+	"When step implementation of cucumber": {
+			"scope": "python",
+			"prefix": "@When",
+			"body": [
+				"@When(\"${1:the user eats the banana}\")",
+				"def step_impl(context$2):",
+				"    $0"
+			],
+			"description": "When step implementation of cucumber"
+		},
+	"Then step implementation of cucumber": {
+			"scope": "python",
+			"prefix": "@Then",
+			"body": [
+				"@Then(\"${1:his stomach hurts}\")",
+				"def step_impl(context$2):",
+				"    $0"
+			],
+			"description": "Then step implementation of cucumber"
+		},
+
+	// WebElement Constructor
+	"Autocomplete constructor": {
+			"scope": "python",
+			"prefix": "Autocomplete",
+			"body": [
+				"Autocomplete((By.XPATH, \"$1\"), (By.XPATH, \"$0\"))"
+			],
+			"description": "Autocomplete's constructor with xpath by default"
+		},
+	"Element constructor": {
+		"scope": "python",
+		"prefix": "Element",
+		"body": [
+			"Element((By.XPATH, \"$0\"))"
+		],
+		"description": "Element's constructor with xpath by default"
+	},
+	"Button constructor": {
+			"scope": "python",
+			"prefix": "Button",
+			"body": [
+				"Button((By.XPATH, \"$0\"))"
+			],
+			"description": "Button's constructor with xpath by default"
+		},
+	"Link constructor": {
+			"scope": "python",
+			"prefix": "Link",
+			"body": [
+				"Link((By.XPATH, \"$0\"))"
+			],
+			"description": "Link's constructor with xpath by default"
+		},
+	"Label constructor": {
+			"scope": "python",
+			"prefix": "Label",
+			"body": [
+				"Label((By.XPATH, \"$0\"))"
+			],
+			"description": "Label's constructor with xpath by default"
+		},
+	"Input constructor": {
+			"scope": "python",
+			"prefix": "Input",
+			"body": [
+				"Input((By.XPATH, \"$0\"))"
+			],
+			"description": "Input's constructor with xpath by default"
+		},
+	"Select constructor": {
+			"scope": "python",
+			"prefix": "Select",
+			"body": [
+				"Select((By.XPATH, \"$0\"))"
+			],
+			"description": "Select's constructor with xpath by default"
+		},
+	"Datepicker constructor": {
+			"scope": "python",
+			"prefix": "Datepicker",
+			"body": [
+				"Datepicker((By.XPATH, \"$0\"))"
+			],
+			"description": "Datepicker's constructor with xpath by default"
+		},
+	"Checkbox constructor": {
+			"scope": "python",
+			"prefix": "Checkbox",
+			"body": [
+				"Checkbox((By.XPATH, \"$0\"))"
+			],
+			"description": "Checkbox's constructor with xpath by default"
+		},
+	"RadioGroup constructor": {
+			"scope": "python",
+			"prefix": "RadioGroup",
+			"body": [
+				"RadioGroup({",
+				"\t\"${1:option_1_name}\": (By.XPATH, \"$2\"),",
+				"\t\"${3:option_2_name}\": (By.XPATH, \"$4\")",
+				"\t})"
+			],
+			"description": "RadioGroup's constructor with xpath by default"
+		},
+
+	// Feature file
+	"Action table": {
+			"scope": "feature",
+			"prefix": "Action Table",
+			"body": [
+				"| field | attribute | action | data |",
+				"|   $1    |     $2      |    $3    |   $4   |"
+			],
+			"description": "An antion table for the step to input datas"
+	}
+}

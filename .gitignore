@@ -1,0 +1,17 @@
+*.pyc
+*.tmp
+*.pdf
+*.log
+*.html
+*.xlsx
+!excel/*/*.xlsx
+*.DS_Store
+
+chromedriver/chromedriver.exe
+chromedriver/chromedriver
+chromedriver/mapping.json
+info/
+log/
+python-3.8.6-env/
+*.python-version
+draft_test/*/screenshot/

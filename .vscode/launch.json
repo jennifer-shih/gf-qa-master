@@ -1,0 +1,170 @@
+{
+    "configurations": [
+        {
+            "name": "Python",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Behave(@SFI)",
+            "type": "python",
+            "request": "launch",
+            "module": "behave",
+            "console": "integratedTerminal",
+            "args": [
+                "${file}",
+                "-D company=SFI",
+                "-D log_level=DEBUG",
+                "--tags=SFI",
+                "--no-logcapture",
+                "--no-capture",
+                "--no-skipped"
+            ]
+        },
+        {
+            "name": "Behave(@LOHAN)",
+            "type": "python",
+            "request": "launch",
+            "module": "behave",
+            "console": "integratedTerminal",
+            "args": [
+                "${file}",
+                "-D company=LOHAN",
+                "-D log_level=DEBUG",
+                "--tags=LOHAN",
+                "--no-logcapture",
+                "--no-capture",
+                "--no-skipped"
+            ]
+        },
+        {
+            "name": "Behave(@OLC)",
+            "type": "python",
+            "request": "launch",
+            "module": "behave",
+            "console": "integratedTerminal",
+            "args": [
+                "${file}",
+                "-D company=OLC",
+                "-D log_level=DEBUG",
+                "--tags=OLC",
+                "--no-logcapture",
+                "--no-capture",
+                "--no-skipped"
+            ]
+        },
+        {
+            "name": "Behave(@OLC_TPE)",
+            "type": "python",
+            "request": "launch",
+            "module": "behave",
+            "console": "integratedTerminal",
+            "args": [
+                "${file}",
+                "-D company=OLC",
+                "-D log_level=DEBUG",
+                "--tags=OLC_TPE",
+                "--no-logcapture",
+                "--no-capture",
+                "--no-skipped"
+            ]
+        },
+        {
+            "name": "Behave(@MASCOT)",
+            "type": "python",
+            "request": "launch",
+            "module": "behave",
+            "console": "integratedTerminal",
+            "args": [
+                "${file}",
+                "-D company=MASCOT",
+                "-D log_level=DEBUG",
+                "--tags=MASCOT",
+                "--no-logcapture",
+                "--no-capture",
+                "--no-skipped"
+            ]
+        },
+        {
+            "name": "Behave(@BugRegression)",
+            "type": "python",
+            "request": "launch",
+            "module": "behave",
+            "console": "integratedTerminal",
+            "args": [
+                "${file}",
+                "-D company=BugRegression",
+                "-D log_level=DEBUG",
+                "--tags=BugRegression",
+                "--no-logcapture",
+                "--no-capture",
+                "--no-skipped"
+            ]
+        },
+        {
+            "name": "Behave(@Tracking)",
+            "type": "python",
+            "request": "launch",
+            "module": "behave",
+            "console": "integratedTerminal",
+            "args": [
+                "${file}",
+                "-D company=UCM",
+                "-D log_level=DEBUG",
+                "--tags=Tracking",
+                "--no-logcapture",
+                "--no-capture",
+                "--no-skipped"
+            ]
+        },
+        {
+            "name": "Python: Performance Test",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "test_server=https://fms-stage-stress-1.gofreight.co",
+                "test_start=2015-01-01",
+                "test_end=2015-05-31",
+                "time_step=0-6-0",
+                "seq=asc",
+                "monitor=1",
+                "company=SFI",
+                "gsheet_tab_name=Performance_For_Test",
+                "test_name=test_journal_report_loading_performance",
+                "mode=section",
+                "report=one-time",
+                "timeout=0:0:300"
+            ]
+        },
+        {
+            "name": "Python: Full Option Test For VP Chart",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "test_server=https://fms-stage-stress-1.gofreight.co",
+                "start_date=2021-01-01",
+                "end_date=2021-01-31",
+                "monitor=1",
+                "company=SFI"
+            ]
+        },
+        {
+            "name": "Python Reset DB",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "test_server=https://fms-stage-stress-1.gofreight.co",
+                "monitor=1",
+                "backup_path=aws-sfi-gofreight/fms/backup.tar.gz-20211212"
+            ]
+        }
+    ]
+}

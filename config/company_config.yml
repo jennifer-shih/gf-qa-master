@@ -1,0 +1,83 @@
+SFI:
+    url: null
+    sa: hardcore
+    op: op_joey
+    opm: opm_joey
+    acc: acc_joey
+    am: am_joey
+    gm: gm_joey
+    sales: sales_joey
+    sa_password: hardc0re
+    password: 123456
+
+LOHAN:
+    url: null
+    sa: hardcore
+    op: op_joey
+    opm: opm_joey
+    acc: acc_joey
+    am: am_joey
+    gm: gm_joey
+    sales: sales_joey
+    sa_password: hardc0re
+    password: 123456
+
+OLC:
+    url: null
+    sa: hardcore
+    op: op_lcl
+    op_qd: op_lcl
+    op_tpe: op_tpe
+    opm: opm_lcl
+    opm_qd: opm_lcl
+    opm_tpe: opm_tpe
+    acc: acc_lcl
+    acc_qd: acc_lcl
+    acc_tpe: acc_tpe
+    am: am_lcl
+    am_qd: am_lcl
+    am_tpe: am_tpe
+    gm: gm_lcl
+    gm_qd: gm_lcl
+    gm_tpe: gm_tpe
+    sales: sales_lcl
+    sales_qd: sales_lcl
+    sales_tpe: sales_tpe
+    sa_password: hardc0re
+    password: 123456
+
+MASCOT:
+    url: null
+    sa: hardcore
+    op: op_joey
+    opm: opm_joey
+    acc: acc_joey
+    am: am_joey
+    gm: gm_joey
+    sales: sales_joey
+    sa_password: hardc0re
+    password: 123456
+
+BugRegression:
+    url: null
+    sa: hardcore
+    op: null
+    opm: null
+    acc: null
+    am: null
+    gm: null
+    sales: null
+    sa_password: hardc0re
+    password: null
+
+UCM:
+    url: null
+    sa: hardcore
+    op: null
+    opm: null
+    acc: null
+    am: null
+    gm: null
+    sales: null
+    sa_password: hardc0re
+    password: null

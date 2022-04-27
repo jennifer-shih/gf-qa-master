@@ -1,0 +1,76 @@
+0001_InitialSetup: 21m 25s
+0101_CreateRoles: 5m 33s
+0201_CreateTradePartners: 30m 31s
+0202_CreateQuotation: 5m 19s
+0401_CreateOIMBLShipment: 3m 00s
+0402_AddOIHBLToShipment: 4m 28s
+0403_AddOIContainer: 3m 30s
+0414_OIMBLLinkedFields: 3m 15s
+0415_OIMBLAndHBLLinkedFields: 0m 40s
+0417_OIHBLToolCopyTo: 2m 17s
+0418_OIDirectMaster: 2m 14s
+0501_CreateOEMBLShipment: 1m 10s
+0502_AddOEHBLToShipment: 0m 43s
+0517_OEHBLToolCopyTo: 2m 46s
+0518_OEDirectMaster: 1m 16s
+0601_CreateAIMAWBShipment: 3m 30s
+0602_AddAIHAWBToShipment: 3m 50s
+0611_AIMAWBFunction: 3m 51s
+0612_AIMAWBAndHAWBFunction: 6m 08s
+0617_AIHAWBToolCopyTo: 1m 57s
+0618_AIDirectMaster: 3m 50s
+0701_CreateAEMAWBShipment: 4m 31s
+0702_AddAEHAWBToShipment: 5m 30s
+0710_AEMAWBFunction: 5m 25s
+0711_AEMAWBAndHAWBFunction: 7m 02s
+0717_AEHAWBToolCopyTo: 2m 13s
+0718_AEDirectMaster: 1m 06s
+0801_CreateTKShipment: 4m 50s
+0802_AddTKContainer: 1m 27s
+0803_TKAccounting: 1m 57s
+0804_TKDocCenterAndWorkOrder: 1m 02s
+0805_TKStatus: 0m 30s
+0901_CreateWHReceipt: 1m 19s
+0902_CreateWHReceipAMBasic: 5m 56s
+0906_CreateWHReceipOTBasic: 3m 36s
+0909_CreateWHReceiving: 1m 20s
+0915_CreateWHShipping: 1m 20s
+0920_CopyWHReceipt: 3m 23s
+0921_CreateWHReceiptAdvanced: 17m 54s
+1001_CreateMiscShipment: 4m 58s
+1403_AccountingReportBalanceSheet: 2m 02s
+1404_AccountingReportTrialBalance: 2m 01s
+1405_AccountingReportGLReport: 7m 16s
+1406_AccountingReportWithLargePeriod: 3m 02s
+1419_AccountingReportBSMonthly: 9m 33s
+1420_AccountingReportTBMonthly: 9m 34s
+1421_AccountingReportISMonthly: 10m 03s
+1901_GQT_255: 3m 48s
+1902_GQT_256: 3m 38s
+1903_GQT_258: 13m 09s
+1904_GFACCT_1290: 20m 16s
+1905_GQT_333: null
+1906_GQT_301: null
+1907_GFG_8412: null
+1908_GFG_8542: null
+1909_GFG_9043: null
+2001_OIAcceptanceTest: 31m 45s
+2002_OEAcceptanceTest: 30m 30s
+2003_AIAcceptanceTest: 30m 21s
+2004_AEAcceptanceTest: 30m 49s
+2005_TKAcceptanceTest: 27m 28s
+2006_WHReceivingAcceptanceTest: 27m 37s
+2007_WHShippingAcceptanceTest: 27m 37s
+2008_MSAcceptanceTest: 27m 32s
+2009_OEBKAcceptanceTest: 28m 30s
+2010_OEVSAndBKAcceptanceTest: 31m 42s
+2011_OEVSAndHBLAcceptanceTest: 33m 39s
+2101_AcceptanceTest: 22m 23s
+2201_AcceptanceTest: 10m 00s
+2202_PermissionTest: null
+2203_AdvancedTest: null
+2301_CostShare: 32m 01s
+2401_LoadAndLink: 6m 0s
+2402_LoadAndLinkMatch: 6m 0s
+2501_PaymentPlanList: null
+2601_EnableGFTracking : 8m 44s
